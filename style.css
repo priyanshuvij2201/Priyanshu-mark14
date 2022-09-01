@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+:root
+{
+    --primary-dark: #1f2937;
+    --primary-green: #ae7bff;
+
+}
+body{
+    color: black;
+    font-family: 'Silkscreen', cursive;
+
+}
+h1
+{
+    text-align: center;
+    border: #1f2937;
+
+}
+.container
+{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+input.label
+{
+    text-align:center ;
+    display: block;
+    width: 50%;
+}
+input
+{
+    margin-top: 00.5rem;
+    border-color: #ae7bff;
+    text-align:center ;
+    border-width: medium;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+#output-boxarea
+{
+    margin:auto;
+    text-align: center;
+}
+#profit-loss{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    color: var(--primary-green);
+    border-color: var(--primary-green);
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.social-footer{
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 980px;
+    text-align: center;
+    margin: auto;
+}
+.social-footer-right{
+    float: left;
+    width:33.33333%;
+    text-align:left;
+    }
+.social-footer-left{
+    float: left;
+    width:33.33333%;
+    text-align:right;;
+}
