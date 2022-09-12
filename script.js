@@ -8,7 +8,7 @@ const outputBoxArea=document.querySelector("#output-boxarea");
 
 function calculateProfitandLoss(){
     var profitorloss=0;
-    if((Number(intialPrice.value) && Number(currentPrice.value) && Number(quantity.value))<=0)
+    if((Number(intialPrice.value)<=0 && Number(currentPrice.value)<=0 && Number(quantity.value)<=0))
     {
         printmessage("Please fill out all fields");
     }
