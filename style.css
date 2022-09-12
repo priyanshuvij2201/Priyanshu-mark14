@@ -35,12 +35,14 @@ input.label
 }
 input
 {
-    margin-top: 00.5rem;
+    margin-top: 0.5rem;
     border-color: #ae7bff;
     text-align:center ;
-    border-width: medium;
+    border-radius: 0.5rem;
     margin-bottom: 0.5rem;
     width: 100%;
+    
+    padding: 10px 32px;
 }
 #output-boxarea
 {

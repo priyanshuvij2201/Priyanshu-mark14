@@ -8,18 +8,18 @@ const outputBoxArea=document.querySelector("#output-boxarea");
 
 function calculateProfitandLoss(){
     var profitorloss=0;
-    if((intialPrice.value && currentPrice.value &&quantity.value)<=0)
+    if((Number(intialPrice.value) && Number(currentPrice.value) && Number(quantity.value))<=0)
     {
         printmessage("Please fill out all fields");
     }
     else
     {
-    var bp=intialPrice.value;
-    var sp=currentPrice.value;
+    var bp=Number(intialPrice.value);
+    var sp=Number(currentPrice.value);
     var profitloss=0;
     var quant=quantity.value;
 
-    if(currentPrice.value>intialPrice.value){
+    if(sp>bp){
     profitloss=(sp-bp)*quant;
     profitpercent=(profitloss/(bp*quant))*100;
     profitorloss=1;
