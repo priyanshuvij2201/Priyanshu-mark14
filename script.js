@@ -8,14 +8,14 @@ const outputBoxArea=document.querySelector("#output-boxarea");
 
 function calculateProfitandLoss(){
     var profitorloss=0;
-    if((Number(intialPrice.value)<=0 && Number(currentPrice.value)<=0 && Number(quantity.value)<=0))
+      var bp=Number(intialPrice.value);
+    var sp=Number(currentPrice.value);
+    if(sp<=0 || bp<=0 || Number(quantity.value)<=0)
     {
         printmessage("Please fill out all fields");
     }
     else
     {
-    var bp=Number(intialPrice.value);
-    var sp=Number(currentPrice.value);
     var profitloss=0;
     var quant=quantity.value;
 
