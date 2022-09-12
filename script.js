@@ -12,7 +12,7 @@ function calculateProfitandLoss(){
     var sp=Number(currentPrice.value);
     if(sp<=0 || bp<=0 || Number(quantity.value)<=0)
     {
-        printmessage("Please fill out all fields");
+        printmessage("Please enter acceptable values");
     }
     else
     {
