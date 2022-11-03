@@ -50,4 +50,4 @@ function calculateProfitandLoss(){
 }
 
 
-checkButton.addEventListener('click',calculateProfitandLoss);
+currentPrice.addEventListener("keydown",(e) => calculateProfitandLoss);
