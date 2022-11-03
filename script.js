@@ -50,4 +50,4 @@ function calculateProfitandLoss(){
 }
 
 
-currentPrice.addEventListener("keydown",(e) => calculateProfitandLoss);
+currentPrice.addEventListener('onkeydown',calculateProfitandLoss);
